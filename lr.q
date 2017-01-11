@@ -2,7 +2,7 @@
 
 ///
 // normal equations - solution for beta parameters
-neq:{(A$/:inv flip[x]$x)$y}
+neq:{(x$/:inv flip[x]$x)$y}
 
 //TODO: add regularised version of normal equations
 
